@@ -1,0 +1,27 @@
+# Aura Dracula Spirit Synthwave: six-stop pink > purple > mint Powerline
+# Paste into an existing ~/.config/starship.toml and set:
+# palette = 'aura_dracula_spirit_synthwave'
+
+[palettes.aura_dracula_spirit_synthwave]
+# Six distinct interpolated segment colors across the existing Powerline bar.
+# pink → orchid → violet → periwinkle → aqua → mint
+base = "#262335"
+crust = "#262335"
+text = "#cdccce"
+red = "#f477ff"
+peach = "#d377ff"
+yellow = "#b277ff"
+green = "#9592f4"
+sapphire = "#7bc9df"
+lavender = "#61ffca"
+# Contrast-conscious custom icon accents.
+acc_blue = "#34387c"
+acc_red = "#8d2451"
+acc_peach = "#6e3b20"
+acc_yellow = "#6e4320"
+acc_green = "#165842"
+acc_teal = "#12544d"
+acc_sapphire = "#134f57"
+acc_mauve = "#45225f"
+acc_maroon = "#7a2551"
+acc_pink = "#77244c"

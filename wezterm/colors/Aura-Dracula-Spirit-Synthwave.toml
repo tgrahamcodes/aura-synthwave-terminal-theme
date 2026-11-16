@@ -1,0 +1,27 @@
+# Aura Dracula Spirit WezTerm port (from the user-supplied VS Code theme)
+# Original theme: https://github.com/josemurilloc/aura-spirit-dracula
+[colors]
+foreground = "#cdccce"
+background = "#262335"
+cursor_bg = "#2d2d2d"
+cursor_border = "#2d2d2d"
+cursor_fg = "#adacae"
+selection_bg = "rgba(61,55,94,0.4980)"
+ansi = [ "#140E1A", "#ff6767", "#8EFFD9", "#ffca85", "#F477FF", "#61ffca", "#a277ff", "#cdccce" ]
+brights = [ "#2d2d2d", "#ffca85", "#a277ff", "#ffca85", "#a277ff", "#61ffca", "#61ffca", "#edecee" ]
+
+[colors.tab_bar]
+background = "#231a2d"
+
+[colors.tab_bar.active_tab]
+bg_color = "#262335"
+fg_color = "#a277ff"
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#231a2d"
+fg_color = "#6d6d6d"
+
+[metadata]
+name = "Aura Dracula Spirit Synthwave"
+author = "José Murillo (original VS Code theme); WezTerm conversion"
+origin_url = "https://github.com/josemurilloc/aura-spirit-dracula"

@@ -1,0 +1,15 @@
+# Optional palette for zsh-syntax-highlighting and zsh-autosuggestions.
+# Source after the plugins initialize. It changes colors only.
+ZSH_HIGHLIGHT_STYLES[default]='fg=#edecee'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#ff6767,bold'
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=#f694ff,bold'
+ZSH_HIGHLIGHT_STYLES[command]='fg=#61ffca'
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=#a277ff'
+ZSH_HIGHLIGHT_STYLES[function]='fg=#82e2ff'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=#ffca85'
+ZSH_HIGHLIGHT_STYLES[path]='fg=#a277ff,underline'
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=#61ffca'
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=#61ffca'
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=#f694ff'
+ZSH_HIGHLIGHT_STYLES[comment]='fg=#64548e'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#64548e'

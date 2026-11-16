@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Aura Dracula Spirit Synthwave</string>
+	<key>author</key>
+	<string>Ported from user-supplied Aura Dracula Spirit VSCode theme</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#262335</string>
+				<key>foreground</key>
+				<string>#edecee</string>
+				<key>caret</key>
+				<string>#a277ff</string>
+				<key>selection</key>
+				<string>#3d375e</string>
+				<key>lineHighlight</key>
+				<string>#2e2b38</string>
+				<key>gutter</key>
+				<string>#231a2d</string>
+				<key>gutterForeground</key>
+				<string>#776882</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aura token</string>
+			<key>scope</key>
+			<string>support.type.property-name.css, meta.property-name.scss, source.css.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a277ff</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aura token</string>
+			<key>scope</key>
+			<string>keyword.other.unit.px.css, keyword.operator.comparison, keyword.control.loop.js, keyword.control.loop.ts, keyword.control.import.js, keyword.control.import.ts, keyword.control.import.tsx, keyword.control.from.js, keyword.control.from.ts, keyword.control.from.tsx, keyword.control.export, keyword.operator.instanceof.js, keyword.operator.expression.instanceof.ts, keyword.operator.expression.instanceof.tsx, storage.modifier.async</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f694ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aura token</string>
+			<key>scope</key>
+			<string>storage.modifier.async</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#f694ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Aura token</string>
+			<key>scope</key>
+			<string>keyword.operator.comparison, keyword.control.loop.js, keyword.control.loop.ts, keyword.control.import.js, keyword.control.import.ts, keyword.control.import.tsx, keyword.control.from.js, keyword.control.from.ts, keyword.control.from.tsx, keyword.control.export, keyword.operator.instanceof.js, entity.name.tag.css, keyword.operator.expression.instanceof.ts, keyword.operator.expression.instanceof.tsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f694ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent1</string>
+			<key>scope</key>
+			<string>keyword, storage, support, entity.name.tag, variable.language, keyword.control.flow, storage.modifier, keyword.operator, entity.other.attribute-name.class.css, entity.other.keyframe-offset, markup.heading, markup.underline.link, variable.other.env, punctuation.definition.list.begin.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.raw.markdown, constant.length.units.css, constant.percentage.units.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a277ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent2</string>
+			<key>scope</key>
+			<string>string, markup.inserted, markup.raw, constant, source.env, support.type.builtin.graphql, variable.other.quoted.double, markup.inline.raw.string.markdown, entity.other.attribute-name.id.css, meta.jsx.children, JSXNested</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61ffca</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent3</string>
+			<key>scope</key>
+			<string>markup.changed, entity, entity.name.function, entity.name.function.elixir, entity.name.function-call.elixir, support.class.component, support.class.component.open, support.class.component.close, meta.function-call.generic.python, entity.name.section.markdown, storage.type.annotation.dart</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffca85</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent5</string>
+			<key>scope</key>
+			<string>invalid, markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff6767</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent6</string>
+			<key>scope</key>
+			<string>string.unquoted, punctuation.separator, entity.other.attribute-name, meta.object-literal.key, variable.object.property, variable.other.property, variable.other.object.property, variable.other.constant.property, meta.type.annotation, support.type.vendored, constant.language.symbol.elixir, variable.graphql, meta.attribute.python, source.dart</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f694ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent7</string>
+			<key>scope</key>
+			<string>variable, markup.list, support.constant.property-value.css, variable.parameter.keyframe-list.css, source.css, support.constant.font-name, support.constant.vendored.property-value, variable.parameter, meta.class, meta.method.declaration, parameter.variable.function.elixir, punctuation.definition.tag, punctuation.section.embedded, meta.embedded.expression, punctuation.terminator.dart, punctuation.dot.dart</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#edecee</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent8</string>
+			<key>scope</key>
+			<string>comment, string.quoted.docstring.multi.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#64548E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent31</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffca85</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Accent32</string>
+			<key>scope</key>
+			<string>entity.name.type, entity.name.class, support.class.builtin, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.quasi.element.begin, punctuation.quasi.element.end, entity.other.inherited-class, variable.other.constant.elixir, entity.other.attribute-name.class.css, support.class.dart</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82e2ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Italics</string>
+			<key>scope</key>
+			<string>meta.return.type, entity.name.type.interface, meta.type.annotation, meta.function.parameters, markup.italic.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Underline</string>
+			<key>scope</key>
+			<string>markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bold</string>
+			<key>scope</key>
+			<string>markup.bold.markdown, storage.type.annotation.dart</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

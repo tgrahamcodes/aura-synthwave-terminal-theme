@@ -1,0 +1,4 @@
+-- Merge the following line into your EXISTING wezterm config.
+-- This is an example fragment, not a replacement config.
+config.color_scheme = 'Aura Dracula Spirit Synthwave'
+-- Lua comments start with --, not #. Hex values must be quoted strings.

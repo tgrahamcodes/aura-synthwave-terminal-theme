@@ -1,0 +1,61 @@
+# eza color theme for Aura Dracula Spirit Synthwave
+# Install to eza's theme.yml location; use without an overriding EZA_COLORS/LS_COLORS.
+colourful: true
+filekinds:
+  normal:      { foreground: "#edecee" }
+  directory:   { foreground: "#a277ff", is_bold: true }
+  symlink:     { foreground: "#82e2ff" }
+  executable:  { foreground: "#61ffca", is_bold: true }
+  pipe:        { foreground: "#ffca85" }
+  socket:      { foreground: "#f694ff" }
+  block_device: { foreground: "#ff6767" }
+  char_device: { foreground: "#ff6767" }
+  special:     { foreground: "#ffca85" }
+perms:
+  user_read:         { foreground: "#61ffca" }
+  user_write:        { foreground: "#ffca85" }
+  user_execute_file: { foreground: "#f694ff" }
+  group_read:        { foreground: "#82e2ff" }
+  group_write:       { foreground: "#ffca85" }
+  other_read:        { foreground: "#a277ff" }
+  other_write:       { foreground: "#ff6767" }
+size:
+  number_byte: { foreground: "#adacae" }
+  number_kilo: { foreground: "#82e2ff" }
+  number_mega: { foreground: "#61ffca" }
+  number_giga: { foreground: "#ffca85" }
+  number_huge: { foreground: "#ff6767", is_bold: true }
+git:
+  new:       { foreground: "#61ffca" }
+  modified:  { foreground: "#ffca85" }
+  deleted:   { foreground: "#ff6767" }
+  renamed:   { foreground: "#a277ff" }
+  ignored:   { foreground: "#64548e" }
+  conflicted: { foreground: "#f694ff", is_bold: true }
+file_type:
+  image:      { foreground: "#f694ff" }
+  video:      { foreground: "#a277ff" }
+  music:      { foreground: "#82e2ff" }
+  document:   { foreground: "#edecee" }
+  compressed: { foreground: "#ffca85" }
+  source:     { foreground: "#61ffca" }
+  build:      { foreground: "#ffca85" }
+  crypto:     { foreground: "#f694ff" }
+  temp:       { foreground: "#64548e" }
+  compiled:   { foreground: "#adacae" }
+extensions:
+  lua:  { filename: { foreground: "#a277ff" } }
+  vim:  { filename: { foreground: "#a277ff" } }
+  toml: { filename: { foreground: "#f694ff" } }
+  json: { filename: { foreground: "#f694ff" } }
+  yaml: { filename: { foreground: "#ffca85" } }
+  yml:  { filename: { foreground: "#ffca85" } }
+  sh:   { filename: { foreground: "#61ffca" } }
+  zsh:  { filename: { foreground: "#61ffca" } }
+  py:   { filename: { foreground: "#61ffca" } }
+  rs:   { filename: { foreground: "#ffca85" } }
+  go:   { filename: { foreground: "#82e2ff" } }
+  js:   { filename: { foreground: "#f694ff" } }
+  ts:   { filename: { foreground: "#a277ff" } }
+  md:   { filename: { foreground: "#f694ff" } }
+  log:  { filename: { foreground: "#64548e" } }
